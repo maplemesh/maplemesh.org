@@ -3,9 +3,10 @@ layout: default
 title: MapleMesh.org
 ---
 
-### Our Goal
+### Our Goal: _Resilient Radio, Connected Community_
 
 We want to help our community stay connected. MapleMesh is a volunteer effort to build a local network across Covington, Maple Valley, Hobart, and nearby areas so neighbors can reach each other, even if phone or internet service goes down.
+
 
 ### Why MapleMesh?
 
