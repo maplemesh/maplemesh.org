@@ -22,7 +22,7 @@ title: MapleMesh.org
 email: admin@maplemesh.org
 description: >- # this means to ignore newlines until "baseurl:"
   MapleMesh is a community organization working to build and maintain a local, resilient communications infrastructure based on LoRa mesh radios in Maple Valley and the surrounding communities.
-baseurl: "/site" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.maplemesh.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lolnobodyusestwitteranymore
 github_username:  maplemesh
