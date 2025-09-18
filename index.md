@@ -13,7 +13,7 @@ Because connection matters. MapleMesh is about more than technology — it’s a
 
 ### How Do I Get Started?
 
-It’s easier than you think! You don’t need to be “techy” to join in. Visit our Get Started guide (pending) and we’ll walk you through it. Whether you set up your own small device or just spread the word, every step helps the network grow.
+It’s easier than you think! You don’t need to have a technology background to join in. Visit our **Get Started** guide (pending) and we’ll walk you through it. Whether you set up your own small device or just spread the word, every step helps the network grow.
 
 ### Our Team
 
