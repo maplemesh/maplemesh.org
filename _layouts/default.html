@@ -15,9 +15,10 @@
     <header>
       <div class="container">
         <a id="a-title" href="{{ '/' | relative_url }}">
-          <img src="{{ "assets/images/MapleMesh-transparent.png" | relative_url }}" alt="Site Logo" width="150" height="auto" />
-          
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <div align="center">
+            <img src="{{ "assets/images/MapleMesh-transparent.png" | relative_url }}" alt="Site Logo" width="150" height="auto" />
+          </div> 
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
         </a>
         <h2>{{ site.description | default: site.github.project_tagline }}</h2>
 
