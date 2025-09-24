@@ -17,6 +17,8 @@ Before you can connect to MapleMesh, you’ll need:
 * Several ready-to-use or kit-based options are listed later in this guide.
 2. A smartphone or computer
   * You’ll use this to set up your device and send/receive messages through the free Meshtastic app or web tools.
+  * [Google Play Store (for Android devices) link](https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en_US&pli=1)
+  * [iPhone app (for iPhones) link](https://apps.apple.com/us/app/meshtastic/id1586432531?ign-itscg=30200&ign-itsct=apps_box_promote_link)
 3. Basic setup information
   * Region: US (to match US frequency rules)
   * Channel settings: set the modem preset to medium_fast (this balances speed and range and is what MapleMesh uses)
@@ -35,16 +37,15 @@ Pick one of the hardware options below (see “Hardware Choices”). Make sure y
 * Use the Meshtastic mobile app (Android or iOS) or connect by USB to your computer.
 * The app will recognize your device and let you configure settings.
   
-4. Set the Region
+4. Set the Region and Modem Preset to Join the MapleMesh Network
 * In the app, go to Radio Settings → Region and select United States.
-* This ensures the device uses legal frequencies (902–928 MHz).
-
-5. Join the MapleMesh Channel
+   * This ensures the device uses legal frequencies (902–928 MHz).
 * In Radio Settings → Modem Preset, select medium_fast.
-* This tells your device to match the speed/range trade-off MapleMesh uses.
-* Save and apply settings—the device may reboot.
+   * This tells your device to match the settings used by the MapleMesh network.
+* Scroll the the bottom of the page and click Send—the device may reboot.
+* Under the Device Config menu of the app, select "Client" as the role -- this is likely already selected. Click Send-the device may reboot.
 
-6. Test Your Connection
+5. Test Your Connection
 * From the app, try sending a text message.
 * If you’re in range of another MapleMesh device, your message will hop into the network.
 * Walk around or place your device outside to improve range
