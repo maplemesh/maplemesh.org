@@ -49,7 +49,8 @@ Pick one of the hardware options below (see “Hardware Choices”). Make sure y
 * If you’re in range of another MapleMesh device, your message will hop into the network.
 * Walk around or place your device outside to improve range
 
-## Hardware Choices (Lowest Cost & Most DIY → Highest Cost & Easiest to Use)
+## Hardware Choices
+## (Lowest Cost & Most DIY → Highest Cost & Easiest to Use)
 Here are common options you can buy online. Prices vary by seller, but this order reflects typical price and ease of use:
 * [RAK WisBlock Meshtastic Starter Kit (~$15–20)](https://store.rokland.com/products/rak-wireless-wisblock-meshtastic-starter-kit)
   * Modular kit with base + LoRa module.
