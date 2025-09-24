@@ -75,7 +75,7 @@ Here are common options you can buy online. Prices vary by seller, but this orde
 
 ## Quick Tips
 * Line of sight matters: devices work best when not blocked by buildings or hills.
-* Antennas make a difference: bigger antennas usually mean better range.
+* Antennas make a difference: The right antenna for the right situation makes a big difference in range.
 * More nodes = stronger mesh: even if you’re not chatting, just running your node helps the network grow.
 
 ### Other Relevant Documentation
