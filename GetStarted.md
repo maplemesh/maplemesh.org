@@ -17,8 +17,8 @@ Before you can connect to MapleMesh, you’ll need:
 * Several ready-to-use or kit-based options are listed later in this guide.
 2. A smartphone or computer
   * You’ll use this to set up your device and send/receive messages through the free Meshtastic app or web tools.
-  * [Google Play Store (for Android devices) link](https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en_US&pli=1)
-  * [iPhone app (for iPhones) link](https://apps.apple.com/us/app/meshtastic/id1586432531?ign-itscg=30200&ign-itsct=apps_box_promote_link)
+     * [Google Play Store (for Android devices) link](https://play.google.com/store/apps/details?id=com.geeksville.mesh&hl=en_US&pli=1)
+     * [iPhone app (for iPhones) link](https://apps.apple.com/us/app/meshtastic/id1586432531?ign-itscg=30200&ign-itsct=apps_box_promote_link)
 3. Basic setup information
   * Region: US (to match US frequency rules)
   * Channel settings: set the modem preset to medium_fast (this balances speed and range and is what MapleMesh uses)
