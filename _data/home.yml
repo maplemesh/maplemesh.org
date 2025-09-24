@@ -1,6 +1,6 @@
 navbar_entries:
   - title: Get Started
-    url: GetStarted.md
+    url: GetStarted
 
   - title: blog
     url: blog
