@@ -3,10 +3,10 @@
 ## What is MapleMesh?
 MapleMesh is a community communication network built using LoRa (long range, low power radios) and [Meshtastic](https://meshtastic.org/), an open-source project that lets small radios send text messages and GPS information without cell towers or Wi-Fi.
 
-The “mesh” part means each device passes along messages for others—so even if you’re far away from someone, your message can hop across multiple devices until it reaches them.MapleMesh is built on long range (LoRa), low power radio units. Individual units, called nodes, work together to create a mesh network. The more units in use, the stronger the network!
+The “mesh” part means each device passes along messages for others, so even if you’re far away from someone, your message can hop across multiple devices until it reaches them. MapleMesh is built on long range (LoRa), low power radio units. Individual units, called nodes, work together to create a mesh network. The more units in use, the stronger the network!
 
 ## What is LoRa?
-LoRa (Long Range Radio) is the wireless technology this network uses. It’s designed to send small amounts of data—like text messages while using very little power.
+LoRa is the wireless technology this network uses. It’s designed to send small amounts of data—like text messages while using very little power.
 
 Think of it as walkie-talkies for data. Instead of voice, LoRa carries text and (sometimes) location information.
 
