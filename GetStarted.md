@@ -52,7 +52,7 @@ Pick one of the hardware options below (see “Hardware Choices”). Make sure y
 ## Hardware Choices (Lowest Cost & Most DIY → Highest Cost & Easiest to Use)
 Here are common options you can buy online. Prices vary by seller, but this order reflects typical price and ease of use:
 * [RAK WisBlock Meshtastic Starter Kit (~$15–20)](https://store.rokland.com/products/rak-wireless-wisblock-meshtastic-starter-kit)
-  _ Modular kit with base + LoRa module.
+  * Modular kit with base + LoRa module.
   * Pros: inexpensive, flexible for hobbyists.
   * Cons: requires assembly and flashing.
 * [WisMesh Pocket Mini Handheld (~$50)](https://store.rokland.com/products/rakwireless-wismesh-pocket-mini-all-in-one-meshtastic-handheld-915-mhz-radio-with-lora-antenna?_pos=1&_sid=daa68afd2&_ss=r)
