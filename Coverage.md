@@ -17,10 +17,11 @@ Note: these maps should be interpreted as any kind of guarantee, but our tests s
 ### Current
 This is the coverage we expect to have active right now. 
 
-![Current Coverage](images/coverage/coverage-25-09-29.png)
+[![Current Coverage](images/coverage/expected-25-09-29.png)](images/coverage/expected-25-09-29.png)
 
 ### Permissed
 This is the coverage we expect to have in the near future once we've installed every node that we have permission for.
+[![Permissed Coverage](images/coverage/permissed-25-09-29.png)](images/coverage/permissed-25-09-29.png)
 
 ## Process
 Maps are created using [Radio Mobile for Windows](https://www.ve2dbe.com). To create ones in this style, use the following steps:
