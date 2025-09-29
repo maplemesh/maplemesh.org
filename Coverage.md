@@ -18,6 +18,7 @@ Maps are created using [Radio Mobile for Windows](https://www.ve2dbe.com). To cr
 1. Overlay the InternetVirtualEarth map on the map with the *Operation* set to *Multiply*.
 1. Repeat. This is the best way to get roads actually readable once you throw the coverage data on top.
 1. Run your coverage for the node or nodes. 
-  - Polar coverage is faster, but less precise. Cartesion coverage lets you combine multiple nodes' coverage as well as create Best Unit maps.
+  - Polar coverage is faster, but less precise. 
+  - Cartesian coverage lets you combine multiple nodes' coverage as well as create Best Unit maps that differentiate between nodes' coverage instead of showing combined coverage.
 
 ---
