@@ -3,7 +3,7 @@
 ## What is MapleMesh?
 MapleMesh is a community communication network built using LoRa (long range, low power radios, called "nodes") and [Meshtastic](https://meshtastic.org/), an open-source project that lets small radios send text messages and GPS information without cell towers or Wi-Fi. Individual nodes work together to create a mesh network. The more units in use, the stronger the network!
 
-The “mesh” part means each device passes along messages for others, so even if you’re far away from someone, your message can hop across multiple devices until it reaches them.
+The "mesh" part means each device passes along messages for others, so even if you’re far away from someone, your message can hop across multiple devices until it reaches them.
 
 ## What is LoRa?
 LoRa is the wireless technology this network uses. It’s designed to send small amounts of data—like text messages while using very little power.
@@ -27,11 +27,11 @@ Before you can connect to MapleMesh, you’ll need:
 
 ## Step-by-Step Setup
 1. Get a Meshtastic Device
-Pick one of the hardware options below (see “Hardware Choices”). Make sure you choose the 915 MHz / US version.
+Pick one of the hardware options below (see "Hardware Choices"). Make sure you choose the 915 MHz / US version.
 
 2. Install or Confirm Meshtastic Software
 * Many devices come with Meshtastic already installed.
-* If yours doesn’t, you’ll need to “flash” the Meshtastic firmware (instructions: [Meshtastic Docs](https://meshtastic.org/docs/getting-started/))
+* If yours doesn’t, you’ll need to "flash" the Meshtastic firmware (instructions: [Meshtastic Docs](https://meshtastic.org/docs/getting-started/))
 
 3. Connect Your Device
 * Use the Meshtastic mobile app (Android or iOS) or connect by USB to your computer.
