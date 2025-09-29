@@ -1,5 +1,6 @@
 ---
 title: Get Started
+layout: page
 ---
 # How to Join MapleMesh
 ## A Beginner’s Guide to Connecting to the Local Meshtastic Network
