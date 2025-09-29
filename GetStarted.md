@@ -1,3 +1,6 @@
+---
+title: Get Started
+---
 # How to Join MapleMesh
 ## A Beginner’s Guide to Connecting to the Local Meshtastic Network
 ## What is MapleMesh?
@@ -83,3 +86,5 @@ Here are common options you can buy online. Prices vary by seller, but this orde
 * Meshtastic.org's [Introduction to LoRa and Meshtastic](https://meshtastic.org/docs/introduction/)
 * Meshtastic.org's [Getting Started Guide](https://meshtastic.org/docs/getting-started/)
 * Meshtastic.org's [Frequently Asked Questions](https://meshtastic.org/docs/faq/)
+
+---
