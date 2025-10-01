@@ -1,10 +1,20 @@
 ---
 layout: default
 ---
-<a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a>
 
 <header>
-  <h1>{{ site.title }}</h1>
+{% if site.theme_config.show_navbar == true %}
+  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+  <div class="dashed"></div>
+{% endif %}
+
+<div align="center">
+  <img src="{{ "assets/images/MapleMesh-transparent.png" | relative_url }}" alt="Site Logo" width="150" height="auto" />
+</div> 
+  <h1>{{ site.title | default: site.github.repository_name }}</h1>
+  {% if site.theme_config.show_description == true %}
+    <p>{{ site.description }}</p>
+  {% endif %}
 </header>
 
 {{ content }}
