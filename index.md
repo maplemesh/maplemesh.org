@@ -3,6 +3,8 @@ layout: home
 title: MapleMesh.org
 ---
 
+MapleMesh is a group of volunteers working to build and maintain a local, resilient communications infrastructure using LoRa (long range) mesh radios in Maple Valley and the surrounding communities.
+
 ### Our Goal: _Resilient Radio, Connected Community_
 
 We want to help our community stay connected. MapleMesh is a volunteer effort to build a local network across Covington, Maple Valley, Hobart, and nearby areas so neighbors can reach each other, even if phone or internet service goes down.
