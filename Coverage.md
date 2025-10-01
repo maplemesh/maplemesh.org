@@ -31,5 +31,3 @@ Maps are created using [Radio Mobile for Windows](https://www.ve2dbe.com). To cr
 1. Run your coverage for the node or nodes. 
   - Polar coverage is faster, but less precise. 
   - Cartesian coverage lets you combine multiple nodes' coverage as well as create Best Unit maps that differentiate between nodes' coverage instead of showing combined coverage.
-
----
