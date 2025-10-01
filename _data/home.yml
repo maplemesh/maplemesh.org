@@ -1,4 +1,7 @@
 navbar_entries:
+  - title: MapleMesh Home
+    url: index
+  
   - title: Get Started
     url: GetStarted
 
