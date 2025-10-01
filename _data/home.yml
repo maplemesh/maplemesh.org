@@ -4,7 +4,10 @@ navbar_entries:
 
   - title: Coverage
     url: Coverage
-
+    
+  - title: Contact
+    url: Contact
+    
   - title: blog
     url: blog
 
