@@ -21,6 +21,3 @@ It’s easier than you think! You don’t need to have a technology background t
 <!-- ### Our Team
 
 [Placeholder for Our Team content] -->
-
-
----
