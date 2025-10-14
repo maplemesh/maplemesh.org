@@ -8,6 +8,9 @@ navbar_entries:
   - title: Coverage
     url: Coverage
     
+  - title: Real-Time Mesh Info
+    url: https://meshinfo.rainlab.io/map.html
+  
   - title: Contact
     url: Contact
     
