@@ -63,6 +63,9 @@ old_project_entries:
     desc: The better people know you, the better they collaborate
 
 footer_entries:
+  - title: Join Our Discord
+    url: https://discord.gg/maplemesh
+
   - title: Meshtastic
     url: https://meshtastic.org
 
