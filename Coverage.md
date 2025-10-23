@@ -17,7 +17,7 @@ Note: these maps should be interpreted as any kind of guarantee, but our tests s
 ### Current
 This is the coverage we expect to have active right now. 
 
-[![Current Coverage](images/coverage/expected-25-09-29.png)](images/coverage/expected-25-09-29.png)
+[![Current Coverage](images/coverage/expected-25-10-23.png)](images/coverage/expected-25-10-23.png)
 
 ### Permissed
 This is the coverage we expect to have in the near future once we've installed every node that we have permission for.
