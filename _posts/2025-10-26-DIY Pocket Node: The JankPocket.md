@@ -22,6 +22,8 @@ It also uses some basic parts like hookup wire and a slide switch, and a printed
 
 I followed the [ProMicro DIY wiring scheme](https://github.com/meshtastic/firmware/blob/develop/variants/nrf52840/diy/nrf52_promicro_diy_tcxo/Schematic_Pro-Micro_Pinouts%202024-12-14.pdf), with a 3D printed carrier board designed to optimize the wiring process. 
 
+One important thing, the ProMicro boards I got from AliExpress needed a bootloader update before they could accept the Meshtastic firmware. That's here: (Nice Nano bootloader update 0.9.2)[https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.9.2/update-nice_nano_bootloader-0.9.2_nosd.uf2] - to apply it, you'll have to short the RST pin to ground twice within half a second to get into the bootloader, then copy the file to the drive that shows up. Then unplug it, get back into the bootloader, and then you can follow Meshtastic's flasher instructions for the ProMicro DIY boards.
+
 If you're interested in trying to put one together, I've published the 3D print files on Thangs: [JankPocket Meshtastic node carrier board and case](https://thangs.com/designer/natetrue/3d-model/JankPocket%20Meshtastic%20radio%20node%20carrier%20board%20and%20case-1456375?source=All+Files)
 
 Happy meshing! 🍁
