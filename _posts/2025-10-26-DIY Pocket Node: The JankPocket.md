@@ -4,13 +4,13 @@ author: Nate
 tags: hardware
 ---
 
-I'm on a bit of a bargain-basement kick, and wanted to see how cheap I could get a pocket node. After a lot of shopping around, here's what I've managed to cobble together. It's definitely a lot more Janky DIY than other solutions but the price tag isn't bad, and the battery life looks to be about 36 hours.
+I'm on a bit of a bargain-basement kick, and wanted to see how cheap I could get a pocket node. After a lot of shopping around, here's what I've managed to cobble together. It's definitely a lot more Janky DIY than other solutions but the price tag isn't bad, and the battery life looks to be about 36 hours in Client mode.
 
-[![Picture of front of JankPocket node](../../../images/2025-10-26-jankpocket-front.jpg)](../../../images/2025-10-26-jankpocket-front.jpg)
+[![Picture of front of JankPocket node](/images/2025-10-26-jankpocket-front.jpg)](/images/2025-10-26-jankpocket-front.jpg)
 
-[![Picture of side of JankPocket node](../../../images/2025-10-26-jankpocket-side.jpg)](../../../images/2025-10-26-jankpocket-side.jpg)
+[![Picture of side of JankPocket node](/images/2025-10-26-jankpocket-side.jpg)](/images/2025-10-26-jankpocket-side.jpg)
 
-[![Picture of innards of JankPocket node](../../../images/2025-10-26-jankpocket-internals.jpg)](../../../images/2025-10-26-jankpocket-internals.jpg)
+[![Picture of innards of JankPocket node](/images/2025-10-26-jankpocket-internals.jpg)](/images/2025-10-26-jankpocket-internals.jpg)
 
 Parts (easily available on AliExpress and/or Amazon):
 - ProMicro NRF52840 board: $5
@@ -21,6 +21,8 @@ Parts (easily available on AliExpress and/or Amazon):
 It also uses some basic parts like hookup wire and a slide switch, and a printed case with a lasered-on logo.
 
 I followed the [ProMicro DIY wiring scheme](https://github.com/meshtastic/firmware/blob/develop/variants/nrf52840/diy/nrf52_promicro_diy_tcxo/Schematic_Pro-Micro_Pinouts%202024-12-14.pdf), with a 3D printed carrier board designed to optimize the wiring process. 
+
+**NOTE**: The DIY firmware might not treat the radio's amplifiers properly. If you're using an E22-900M30S, you need to set the transmit power to 22 dBm or less *before* connecting the radio for the first time. It's even more critical if you're using an E22-900M33S, which needs the power to be set at or below 8 dBm to avoid damaging the radio.
 
 One important thing, the ProMicro boards I got from AliExpress needed a bootloader update before they could accept the Meshtastic firmware. That's here: (Nice Nano bootloader update 0.9.2)[https://github.com/adafruit/Adafruit_nRF52_Bootloader/releases/download/0.9.2/update-nice_nano_bootloader-0.9.2_nosd.uf2] - to apply it, you'll have to short the RST pin to ground twice within half a second to get into the bootloader, then copy the file to the drive that shows up. Then unplug it, get back into the bootloader, and then you can follow Meshtastic's flasher instructions for the ProMicro DIY boards.
 
