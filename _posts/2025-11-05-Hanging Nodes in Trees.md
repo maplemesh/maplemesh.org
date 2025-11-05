@@ -88,7 +88,7 @@ I designed an enclosure to be 3D printed that takes care of rainwater drainage a
 
 The case has three tie points to rope to the tri-hanger, allowing the whole assembly to be balanced to keep the antenna vertical.
 
-Download the case's 3D files here: [Hanging node 3d printed case files]()
+Download the case's 3D files here: [Hanging node 3d printed case files](https://thangs.com/designer/natetrue/3d-model/Maplemesh%20solar%20tree%20mesh%20node%20parts-1463047)
 
 ### Hanging hardware
 [![Detail of tri-wing hanger](/images/hangingnodes/hangerdetail.jpg)](/images/hangingnodes/hangerdetail.jpg)
