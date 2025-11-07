@@ -144,6 +144,28 @@ The general process of hanging a node is:
 
 ... also, make note of your node's location. They can be really hard to see from the ground :D 
 
+# Appendix: Sample parts list
 
+There are a lot of variations of node hardware, but here's a minimal sample list that will net you a cheap solar node in a tree.
+
+## Main components
+- MCU: Nice!Nano compatible ProMicro nRF52840 microcontroller ($3)
+- Radio: Ebyte E22-900M30S ($10)
+- Antenna: Generic whip antenna ($5)
+- Battery: EBL protected button-top 18650 ($10)
+- Solar panel: Generic 10W 5V USB-C panel ($15)
+- Case/hanging hardware: 3D printed tree case, hanger, carabiners, and spool (~$3 in plastic)
+
+## Additional hardware
+- 200ft 2mm 100-lb test paracord ($8)
+- 2x 3" wood screws ($1)
+
+## Tools
+- Soldering workstation
+- Drill 
+- Fishing pole w/ line
+- Bow and arrow or similar
+- Duct tape
+- Knife or multitool
 
 
