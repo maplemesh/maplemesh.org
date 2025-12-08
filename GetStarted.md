@@ -34,25 +34,27 @@ Before you can connect to MapleMesh, you’ll need:
 Pick one of the hardware options below (see "Hardware Choices"). Make sure you choose the 915 MHz / US version.
 
 2. Install or Confirm Meshtastic Software
-* Many devices come with Meshtastic already installed.
-* If yours doesn’t, you’ll need to "flash" the Meshtastic firmware (instructions: [Meshtastic Docs](https://meshtastic.org/docs/getting-started/))
+    * Many devices come with Meshtastic already installed.
+    * If yours doesn’t, you’ll need to "flash" the Meshtastic firmware (instructions: [Meshtastic Docs](https://meshtastic.org/docs/getting-started/))
 
 3. Connect Your Device
-* Use the Meshtastic mobile app (Android or iOS) or connect by USB to your computer.
-* The app will recognize your device and let you configure settings.
+    * Use the Meshtastic mobile app (Android or iOS) or connect by USB to your computer.
+    * The app will recognize your device and let you configure settings.
   
 4. Set the Region and Modem Preset to Join the MapleMesh Network
-* In the app, go to Radio Settings → Region and select United States.
-   * This ensures the device uses legal frequencies (902–928 MHz).
-* In Radio Settings → Modem Preset, select medium_fast.
-   * This tells your device to match the settings used by the MapleMesh network.
-* Scroll the the bottom of the page and click Send—the device may reboot.
-* Under the Device Config menu of the app, select "Client" as the role -- this is likely already selected. Click Send-the device may reboot.
+    * In the app, go to Radio Settings → Region and select United States. This ensures the device uses legal frequencies (902–928 MHz).
+  * In Radio Settings → Modem Preset, select medium_fast. This tells your device to match the settings used by the MapleMesh network.
+  * Scroll the the bottom of the page and click Send—the device may reboot.
+  * Under the *Device configuration* section of the settings, select "Client" as the role -- this is likely already selected. Click Send-the device may reboot.
+  * Under the *Radio configuration* section of the settings:
+    * In the *Channels* menu, `MediumFast` is set as the primary channel (should be at the top of the list) and that its pre-shared key is `AQ==`.
+    * In the *LoRa* menu, the frequency slot should be set to 45, which is 913.125MHz.
+      * Turning on *OK to MQTT* will cause your node to show up in maps online such as our [MeshInfo page](https://meshinfo.maplemesh.org/map.html). Doing so can make it easier to tell how well you're connecting to the network, but there are also good privacy reasons not to.
 
 5. Test Your Connection
-* From the app, try sending a text message.
-* If you’re in range of another MapleMesh device, your message will hop into the network.
-* Walk around or place your device outside to improve range
+    * From the app, try sending a text message.
+    * If you’re in range of another MapleMesh device, your message will hop into the network.
+    * Walk around or place your device outside to improve range
 
 ## Hardware Choices
 ## (Lowest Cost & Most DIY → Highest Cost & Easiest to Use)
@@ -79,8 +81,9 @@ Here are common options you can buy online. Prices vary by seller, but this orde
   * Cons: pricier.
 
 ## Quick Tips
-* Line of sight matters: devices work best when not blocked by buildings or hills.
-* Antennas make a difference: The right antenna for the right situation makes a big difference in range.
+* Height matters! Getting an antenna even a few feet higher can sometimes make a huge difference in range.
+* Line of sight matters: devices work best when not blocked by buildings or hills. If you're inside a building, don't be surprised if your range is cut in half or worse.
+* Antennas make a difference: The right antenna for the right situation makes a big difference in range. 
 * More nodes = stronger mesh: even if you’re not chatting, just running your node helps the network grow.
 
 ### Other Relevant Documentation
