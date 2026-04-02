@@ -1,16 +1,16 @@
 navbar_entries:
   - title: MapleMesh Home
     url: index
-  
+
   - title: Get Started
     url: GetStarted
 
   - title: Coverage
     url: Coverage
-    
+
   - title: Real-Time Mesh Info
-    url: https://meshinfo.rainlab.io/map.html
-    
+    url: https://analyzer.cascadiamesh.org/#/live
+
   - title: blog
     url: blog
 
@@ -47,7 +47,7 @@ project_entries:
 old_project_entries:
   - title: Soopr
     url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
+    desc: Delight your readers - add beautiful share and like buttons easily to your websites
     highlight: NEW
 
   - title: Cookie
@@ -66,8 +66,11 @@ footer_entries:
   - title: Join Our Discord
     url: https://discord.gg/dNZ9Fpm9Yr
 
-  - title: Meshtastic
-    url: https://meshtastic.org
+  - title: MeshCore
+    url: https://meshcore.co.uk
+
+  - title: CascadiaMesh
+    url: https://cascadiamesh.org
 
   - title: PugetMesh
     url: https://pugetmesh.org
@@ -106,5 +109,3 @@ misc_entries:
 
           - title: it is easy to use, see _data/home.yml to see how to configure it.
             url: false
-
-
